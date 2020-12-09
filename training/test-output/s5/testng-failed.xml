@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [s5]">
+  <listeners>
+    <listener class-name="com.webtest.freemarker.WebTestListener"/>
+  </listeners>
+  <test thread-count="5" name="t2(failed)">
+    <classes>
+      <class name="com.webtest.demo.hzxExcelDemo">
+        <methods>
+          <include name="test_usernameisEnglish_regist"/>
+          <include name="doAfterMethod"/>
+          <include name="open_URL"/>
+          <include name="doBeforeClass"/>
+        </methods>
+      </class> <!-- com.webtest.demo.hzxExcelDemo -->
+    </classes>
+  </test> <!-- t2(failed) -->
+</suite> <!-- Failed suite [s5] -->

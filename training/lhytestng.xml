@@ -1,0 +1,15 @@
+
+
+<suite name="s4" verbose="1" >
+	<listeners> 
+		<listener class-name="com.webtest.freemarker.WebTestListener" /> 
+		
+	</listeners>
+
+	<test name="test1">
+			<classes>
+			<class name="com.webtest.demo.lhyExcelDataTest" />
+		</classes>
+	</test>
+	
+</suite>

@@ -1,0 +1,13 @@
+<suite name="s2" verbose="1" >
+	<listeners> 
+		<listener class-name="com.webtest.freemarker.WebTestListener" /> 
+		
+	</listeners>
+
+	<test name="test1">
+			<classes>
+			<class name="com.webtest.demo.zsmExcelDemo" />
+		</classes>
+	</test>
+	
+</suite>

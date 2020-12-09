@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<suite name="s5" verbose="1" parallel="none">
+	<listeners>
+		<listener class-name="com.webtest.freemarker.WebTestListener"></listener>
+	</listeners>
+	
+	<test name="t2" preserve-order="true">
+		<classes>
+			<class name="com.webtest.demo.hzxExcelDemo" />
+		</classes>
+	</test>
+
+</suite>

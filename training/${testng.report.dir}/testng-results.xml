@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="s3" duration-ms="36169" started-at="2020-12-09T10:31:35 CST" finished-at="2020-12-09T10:32:11 CST">
+    <groups>
+    </groups>
+    <test name="t2" duration-ms="36169" started-at="2020-12-09T10:31:35 CST" finished-at="2020-12-09T10:32:11 CST">
+      <class name="com.webtest.demo.wqExcelTest">
+        <test-method status="PASS" signature="doBeforeClass()[pri:0, instance:com.webtest.demo.wqExcelTest@5e5792a0]" name="doBeforeClass" is-config="true" duration-ms="3184" started-at="2020-12-09T10:31:35 CST" finished-at="2020-12-09T10:31:38 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeClass -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.webtest.demo.wqExcelTest@5e5792a0]" name="testLogin" is-config="true" duration-ms="10412" started-at="2020-12-09T10:31:38 CST" finished-at="2020-12-09T10:31:49 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="order_test23(java.lang.String)[pri:0, instance:com.webtest.demo.wqExcelTest@5e5792a0]" name="order_test23" duration-ms="7511" started-at="2020-12-09T10:31:49 CST" data-provider="wq" finished-at="2020-12-09T10:31:56 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- order_test23 -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.webtest.demo.wqExcelTest@5e5792a0]" name="testLogin" is-config="true" duration-ms="6775" started-at="2020-12-09T10:31:56 CST" finished-at="2020-12-09T10:32:03 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="order_test23(java.lang.String)[pri:0, instance:com.webtest.demo.wqExcelTest@5e5792a0]" name="order_test23" duration-ms="7453" started-at="2020-12-09T10:32:03 CST" data-provider="wq" finished-at="2020-12-09T10:32:11 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ww]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- order_test23 -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.webtest.demo.wqExcelTest@5e5792a0]" name="doAfterMethod" is-config="true" duration-ms="710" started-at="2020-12-09T10:32:11 CST" finished-at="2020-12-09T10:32:11 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- com.webtest.demo.wqExcelTest -->
+    </test> <!-- t2 -->
+  </suite> <!-- s3 -->
+  <suite name="s1 (0)" duration-ms="74321" started-at="2020-12-09T10:30:20 CST" finished-at="2020-12-09T10:31:34 CST">
+    <groups>
+    </groups>
+    <test name="test1" duration-ms="74321" started-at="2020-12-09T10:30:20 CST" finished-at="2020-12-09T10:31:34 CST">
+      <class name="com.webtest.demo.lhyExcelDataTest">
+        <test-method status="PASS" signature="doBeforeClass()[pri:0, instance:com.webtest.demo.lhyExcelDataTest@59fa1d9b]" name="doBeforeClass" is-config="true" duration-ms="3186" started-at="2020-12-09T10:30:20 CST" finished-at="2020-12-09T10:30:23 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeClass -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.webtest.demo.lhyExcelDataTest@59fa1d9b]" name="testLogin" is-config="true" duration-ms="11298" started-at="2020-12-09T10:30:23 CST" finished-at="2020-12-09T10:30:35 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="cart_test38(java.lang.String)[pri:0, instance:com.webtest.demo.lhyExcelDataTest@59fa1d9b]" name="cart_test38" duration-ms="59023" started-at="2020-12-09T10:30:35 CST" data-provider="lhy" finished-at="2020-12-09T10:31:34 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Li]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cart_test38 -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.webtest.demo.lhyExcelDataTest@59fa1d9b]" name="doAfterMethod" is-config="true" duration-ms="743" started-at="2020-12-09T10:31:34 CST" finished-at="2020-12-09T10:31:34 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- com.webtest.demo.lhyExcelDataTest -->
+    </test> <!-- test1 -->
+  </suite> <!-- s1 (0) -->
+  <suite name="s5" duration-ms="41746" started-at="2020-12-09T10:32:12 CST" finished-at="2020-12-09T10:32:54 CST">
+    <groups>
+    </groups>
+    <test name="t2" duration-ms="41746" started-at="2020-12-09T10:32:12 CST" finished-at="2020-12-09T10:32:54 CST">
+      <class name="com.webtest.demo.hzxExcelDemo">
+        <test-method status="PASS" signature="doBeforeClass()[pri:0, instance:com.webtest.demo.hzxExcelDemo@3e6fa38a]" name="doBeforeClass" is-config="true" duration-ms="3169" started-at="2020-12-09T10:32:12 CST" finished-at="2020-12-09T10:32:15 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeClass -->
+        <test-method status="PASS" signature="open_URL()[pri:0, instance:com.webtest.demo.hzxExcelDemo@3e6fa38a]" name="open_URL" is-config="true" duration-ms="5544" started-at="2020-12-09T10:32:15 CST" finished-at="2020-12-09T10:32:21 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_URL -->
+        <test-method status="PASS" signature="test_usernameisEnglish_regist(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.webtest.demo.hzxExcelDemo@3e6fa38a]" name="test_usernameisEnglish_regist" duration-ms="13032" started-at="2020-12-09T10:32:21 CST" data-provider="hzx" finished-at="2020-12-09T10:32:34 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_usernameisEnglish_regist -->
+        <test-method status="PASS" signature="open_URL()[pri:0, instance:com.webtest.demo.hzxExcelDemo@3e6fa38a]" name="open_URL" is-config="true" duration-ms="5345" started-at="2020-12-09T10:32:34 CST" finished-at="2020-12-09T10:32:39 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_URL -->
+        <test-method status="PASS" signature="test_usernameisEnglish_regist(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.webtest.demo.hzxExcelDemo@3e6fa38a]" name="test_usernameisEnglish_regist" duration-ms="13754" started-at="2020-12-09T10:32:39 CST" data-provider="hzx" finished-at="2020-12-09T10:32:53 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[haozixian]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_usernameisEnglish_regist -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.webtest.demo.hzxExcelDemo@3e6fa38a]" name="doAfterMethod" is-config="true" duration-ms="721" started-at="2020-12-09T10:32:53 CST" finished-at="2020-12-09T10:32:54 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- com.webtest.demo.hzxExcelDemo -->
+    </test> <!-- t2 -->
+  </suite> <!-- s5 -->
+  <suite name="s1" duration-ms="50111" started-at="2020-12-09T10:28:41 CST" finished-at="2020-12-09T10:29:31 CST">
+    <groups>
+    </groups>
+    <test name="test2" duration-ms="50111" started-at="2020-12-09T10:28:41 CST" finished-at="2020-12-09T10:29:31 CST">
+      <class name="com.webtest.demo.zchExcelDataTest">
+        <test-method status="PASS" signature="doBeforeClass()[pri:0, instance:com.webtest.demo.zchExcelDataTest@3a82f6ef]" name="doBeforeClass" is-config="true" duration-ms="7430" started-at="2020-12-09T10:28:41 CST" finished-at="2020-12-09T10:28:48 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeClass -->
+        <test-method status="PASS" signature="testLoginSuccess()[pri:0, instance:com.webtest.demo.zchExcelDataTest@3a82f6ef]" name="testLoginSuccess" is-config="true" duration-ms="9303" started-at="2020-12-09T10:28:49 CST" finished-at="2020-12-09T10:28:58 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginSuccess -->
+        <test-method status="PASS" signature="test01(java.lang.String)[pri:0, instance:com.webtest.demo.zchExcelDataTest@3a82f6ef]" name="test01" duration-ms="11749" started-at="2020-12-09T10:28:58 CST" data-provider="zch" finished-at="2020-12-09T10:29:10 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[农夫山泉]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01 -->
+        <test-method status="PASS" signature="testLoginSuccess()[pri:0, instance:com.webtest.demo.zchExcelDataTest@3a82f6ef]" name="testLoginSuccess" is-config="true" duration-ms="8798" started-at="2020-12-09T10:29:10 CST" finished-at="2020-12-09T10:29:18 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginSuccess -->
+        <test-method status="PASS" signature="test01(java.lang.String)[pri:0, instance:com.webtest.demo.zchExcelDataTest@3a82f6ef]" name="test01" duration-ms="11731" started-at="2020-12-09T10:29:18 CST" data-provider="zch" finished-at="2020-12-09T10:29:30 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[82年拉菲]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01 -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.webtest.demo.zchExcelDataTest@3a82f6ef]" name="doAfterMethod" is-config="true" duration-ms="720" started-at="2020-12-09T10:29:30 CST" finished-at="2020-12-09T10:29:31 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- com.webtest.demo.zchExcelDataTest -->
+    </test> <!-- test2 -->
+  </suite> <!-- s1 -->
+  <suite name="s2" duration-ms="46325" started-at="2020-12-09T10:29:33 CST" finished-at="2020-12-09T10:30:19 CST">
+    <groups>
+    </groups>
+    <test name="test1" duration-ms="46325" started-at="2020-12-09T10:29:33 CST" finished-at="2020-12-09T10:30:19 CST">
+      <class name="com.webtest.demo.zsmExcelDemo">
+        <test-method status="PASS" signature="doBeforeClass()[pri:0, instance:com.webtest.demo.zsmExcelDemo@2b98378d]" name="doBeforeClass" is-config="true" duration-ms="3175" started-at="2020-12-09T10:29:33 CST" finished-at="2020-12-09T10:29:36 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeClass -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.webtest.demo.zsmExcelDemo@2b98378d]" name="testLogin" is-config="true" duration-ms="8474" started-at="2020-12-09T10:29:36 CST" finished-at="2020-12-09T10:29:44 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="test43(java.lang.String)[pri:0, instance:com.webtest.demo.zsmExcelDemo@2b98378d]" name="test43" duration-ms="12756" started-at="2020-12-09T10:29:44 CST" data-provider="zsm" finished-at="2020-12-09T10:29:57 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[私房酒]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test43 -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.webtest.demo.zsmExcelDemo@2b98378d]" name="testLogin" is-config="true" duration-ms="8405" started-at="2020-12-09T10:29:57 CST" finished-at="2020-12-09T10:30:06 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="test43(java.lang.String)[pri:0, instance:com.webtest.demo.zsmExcelDemo@2b98378d]" name="test43" duration-ms="12767" started-at="2020-12-09T10:30:06 CST" data-provider="zsm" finished-at="2020-12-09T10:30:18 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[娃哈哈]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test43 -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.webtest.demo.zsmExcelDemo@2b98378d]" name="doAfterMethod" is-config="true" duration-ms="714" started-at="2020-12-09T10:30:18 CST" finished-at="2020-12-09T10:30:19 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- com.webtest.demo.zsmExcelDemo -->
+    </test> <!-- test1 -->
+  </suite> <!-- s2 -->
+</testng-results>
